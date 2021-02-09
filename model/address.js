@@ -30,7 +30,4 @@ const address = sequelize.define('address',{
 address.sync({alter : true}).then(()=> {
     console.log(' ')
 });
-
-
-
 module.exports = address;
